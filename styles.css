@@ -1,0 +1,226 @@
+body {
+    background-color: #DAE5D0;
+    margin: 0;
+    text-align: center;
+    font-family: Merriweather, serif;
+    color: #505050;
+}
+
+hr {
+    border: dotted 0.4rem #7c7c7c;
+    border-bottom: none;
+    width: 5rem;
+    margin: 2rem;
+    display: inline-block;
+}
+
+div {
+    background-color: #e9f5de;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.H2_intro {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p_intro {
+    width: 35rem;
+    margin: auto;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    /* color: #181818; */
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.45rem;
+    line-height: 2rem;
+}
+
+.p_skills {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.45rem;
+    line-height: 2rem;
+    display: flex;
+}
+
+#H2_contact_me {
+    font-weight: 900;
+    text-shadow: 2px 2px #9aa194;
+}
+
+#p_contact_me {
+    padding: 1.2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.x_name_surname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+.imag_profile {
+    margin-top: 3rem;
+    width: 12rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_my_skills {
+    width: 21rem;
+    float: left;
+    margin-right: 2rem;
+    /*padding-right: 2rem; this property can create the same efect, but dosen't look good, 
+    so insted I have chose teh margin right prperty */
+}
+
+.img_my_skills_2 {
+    width: 15rem;
+    float: right;
+    margin-left: 2rem;
+    /*padding-right: 2rem; this property can create the same efect, but dosen't look good, 
+    so insted I have chose teh margin right prperty */
+}
+
+#progr_txt {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.contact-me {
+    background-color: #DAE5D0;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+}
+
+
+/*
+.p_text_clear_left {
+    clear: left;
+    margin-top: 10rem;
+}
+
+.p_text_clear_right {
+    clear: right;
+    margin-top: 10rem;
+}
+*/
+
+.boxModel_top {
+    background-color: #b1b1b1;
+    position: relative;
+    padding-top: 100px;
+}
+
+.boxModel_middle {
+    background-color: #50576d;
+    height: 200px;
+    width: 200px;
+}
+
+.boxModel_bottom {
+    background-color: #b1b1b1;
+    height: 7rem;
+    margin: auto;
+    width: auto;
+    padding: 1.1rem;
+}
+
+.pro {
+    color: #3a3a3a;
+    font-weight: bold;
+}
+
+.bottom_cloud {
+    position: absolute;
+}
+
+.upper_cloud {
+    position: absolute;
+    left: 1100px;
+    bottom: 600px;
+}
+
+.btn {
+    background: #90a99d;
+    border-radius: 28px;
+    -webkit-box-shadow: 1px 3px 7px #666666;
+    -moz-box-shadow: 1px 3px 7px #666666;
+    box-shadow: 1px 3px 7px #666666;
+    color: #dae5d0;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background: #6c7a73;
+    text-decoration: none;
+    color: #e9f5de;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer-link {
+    color: #e9f5de;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1.2rem;
+    display: inline-block;
+}
+
+.footer-link:hover {
+    color: #494a4e;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.footer-link:visited {
+    color: #e1edf9;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer-link:active {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 300;
+}
